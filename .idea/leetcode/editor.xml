@@ -267,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/PTXy4P.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/PTXy4P.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCP 55" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/PTXy4P.java" />
+              <option name="titleSlug" value="PTXy4P" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
