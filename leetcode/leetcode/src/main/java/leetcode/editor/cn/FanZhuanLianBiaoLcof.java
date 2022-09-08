@@ -1,8 +1,6 @@
 
 package leetcode.editor.cn;
 
-import java.util.Objects;
-
 public class FanZhuanLianBiaoLcof {
     public static void main(String[] args) {
         Solution solution = new FanZhuanLianBiaoLcof().new Solution();
