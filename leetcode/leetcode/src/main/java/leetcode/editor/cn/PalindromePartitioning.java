@@ -29,8 +29,32 @@ public class PalindromePartitioning {
 
         //主方法
         public List<List<String>> partition(String s) {
-            backtrack(s.toCharArray(), 0, new ArrayList());
+            backtrack1(s.toCharArray(), 0, new ArrayList<String>());
             return ans;
+        }
+
+        private void backtrack1(char[] c, int start, ArrayList<String> res) {
+            int l = c.length;
+            if (start >= l) {
+                ans.add(new ArrayList<>(res));
+                return;
+            }
+            for (int j = start; j < l; j++) {
+                if (isPartition(c, start, j)) {
+                    res.add(new String(c, start, j-start+1));
+                    backtrack1(c, j+1, res);
+                    res.remove(res.size() - 1);
+                }
+            }
+        }
+
+        private boolean isPartition(char[] c, int start, int end) {
+            while (end >= start) {
+                if (c[start++] != c[end--]) {
+                    return false;
+                }
+            }
+            return true;
         }
 
         //回溯方法

@@ -27,3 +27,10 @@
 	<li><code>s</code> 仅由小写英文字母组成</li>
 </ul>
 <div><div>Related Topics</div><div><li>字符串</li><li>动态规划</li><li>回溯</li></div></div><br><div><li>👍 1262</li><li>👎 0</li></div>
+
+<div id="labuladong"><hr>
+
+**通知：[数据结构精品课](https://aep.h5.xeknow.com/s/1XJHEO) 已更新到 V1.9，[第 11 期刷题打卡挑战（9/19 开始）](https://mp.weixin.qq.com/s/eUG2OOzY3k_ZTz-CFvtv5Q) 开始报名。**
+
+</div>
+

@@ -18,9 +18,25 @@ public class BestTimeToBuyAndSellStockIi {
      * 买卖股票的最佳时机 II
      * best-time-to-buy-and-sell-stock-ii
      */
-    //leetcode submit region begin(Prohibit modification and deletion)
+    // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxProfit(int[] prices) {
+            if (prices.length < 2) {
+                return 0;
+            }
+            int profit = 0;
+
+            for (int i = 0; i < prices.length - 1; i++) {
+                if (prices[i] < prices[i + 1]) {
+                    profit += prices[i + 1] - prices[i];
+                }
+            }
+
+            return profit;
+
+        }
+
+        public int maxProfit1(int[] prices) {
             if (prices.length < 2) {
                 return 0;
             }
@@ -44,6 +60,6 @@ public class BestTimeToBuyAndSellStockIi {
 
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
 
 }

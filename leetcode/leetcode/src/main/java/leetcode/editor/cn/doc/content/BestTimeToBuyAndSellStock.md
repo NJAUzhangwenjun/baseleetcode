@@ -1,44 +1,40 @@
-<p>给你一个整数数组 <code>prices</code> ，其中&nbsp;<code>prices[i]</code> 表示某支股票第 <code>i</code> 天的价格。</p>
+<p>给定一个数组 <code>prices</code> ，它的第&nbsp;<code>i</code> 个元素&nbsp;<code>prices[i]</code> 表示一支给定股票第 <code>i</code> 天的价格。</p>
 
-<p>在每一天，你可以决定是否购买和/或出售股票。你在任何时候&nbsp;<strong>最多</strong>&nbsp;只能持有 <strong>一股</strong> 股票。你也可以先购买，然后在 <strong>同一天</strong> 出售。</p>
+<p>你只能选择 <strong>某一天</strong> 买入这只股票，并选择在 <strong>未来的某一个不同的日子</strong> 卖出该股票。设计一个算法来计算你所能获取的最大利润。</p>
 
-<p>返回 <em>你能获得的 <strong>最大</strong> 利润</em>&nbsp;。</p>
+<p>返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 <code>0</code> 。</p>
 
 <p>&nbsp;</p>
 
 <p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>输入：</strong>prices = [7,1,5,3,6,4]
-<strong>输出：</strong>7
-<strong>解释：</strong>在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5 - 1 = 4 。
-&nbsp;    随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出, 这笔交易所能获得利润 = 6 - 3 = 3 。
-     总利润为 4 + 3 = 7 。</pre>
+<strong>输入：</strong>[7,1,5,3,6,4]
+<strong>输出：</strong>5
+<strong>解释：</strong>在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。
+     注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格；同时，你不能在买入前卖出股票。
+</pre>
 
 <p><strong>示例 2：</strong></p>
 
 <pre>
-<strong>输入：</strong>prices = [1,2,3,4,5]
-<strong>输出：</strong>4
-<strong>解释：</strong>在第 1 天（股票价格 = 1）的时候买入，在第 5 天 （股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5 - 1 = 4 。
-&nbsp;    总利润为 4 。</pre>
-
-<p><strong>示例&nbsp;3：</strong></p>
-
-<pre>
 <strong>输入：</strong>prices = [7,6,4,3,1]
 <strong>输出：</strong>0
-<strong>解释：</strong>在这种情况下, 交易无法获得正利润，所以不参与交易可以获得最大利润，最大利润为 0 。</pre>
+<strong>解释：</strong>在这种情况下, 没有交易完成, 所以最大利润为 0。
+</pre>
 
 <p>&nbsp;</p>
 
 <p><strong>提示：</strong></p>
 
-<ul>
-	<li><code>1 &lt;= prices.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li>
+<ul> 
+ <li><code>1 &lt;= prices.length &lt;= 10<sup>5</sup></code></li> 
+ <li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li> 
 </ul>
-<div><div>Related Topics</div><div><li>贪心</li><li>数组</li><li>动态规划</li></div></div><br><div><li>👍 1781</li><li>👎 0</li></div>
+
+<details><summary><strong>Related Topics</strong></summary>数组 | 动态规划</details><br>
+
+<div>👍 2553, 👎 0</div>
 
 <div id="labuladong"><hr>
 
@@ -46,7 +42,7 @@
 
 
 
-<p><strong><a href="https://labuladong.github.io/article?qno=122" target="_blank">⭐️labuladong 题解</a></strong></p>
+<p><strong><a href="https://labuladong.github.io/article?qno=121" target="_blank">⭐️labuladong 题解</a></strong></p>
 <details><summary><strong>labuladong 思路</strong></summary>
 
 ## 基本思路
@@ -61,23 +57,33 @@ dp[i][k][0 or 1]
 n 为天数，大 K 为交易数的上限，0 和 1 代表是否持有股票。
 ```
 
-股票系列问题通用状态转移方程和 base case：
+股票系列问题通用状态转移方程：
 
 ```python
-状态转移方程：
 dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
-dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+              max( 今天选择 rest,        今天选择 sell       )
 
-base case：
+dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+              max( 今天选择 rest,         今天选择 buy         )
+```
+
+通用 base case：
+
+```python
 dp[-1][...][0] = dp[...][0][0] = 0
 dp[-1][...][1] = dp[...][0][1] = -infinity
 ```
 
-特化到 `k` 无限制的情况，状态转移方程如下：
+特化到 `k = 1` 的情况，状态转移方程和 base case 如下：
 
 ```python
+状态转移方程：
 dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
-dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+dp[i][1] = max(dp[i-1][1], -prices[i])
+
+base case：
+dp[i][0] = 0;
+dp[i][1] = -prices[i];
 ```
 
 详细思路解析和空间复杂度优化的解法见详细题解。
@@ -101,7 +107,7 @@ class Solution {
                 continue;
             }
             dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
-            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
+            dp[i][1] = Math.max(dp[i - 1][1], -prices[i]);
         }
         return dp[n - 1][0];
     }
@@ -109,7 +115,7 @@ class Solution {
 ```
 
 **类似题目**：
-  - [121. 买卖股票的最佳时机 🟢](/problems/best-time-to-buy-and-sell-stock)
+  - [122. 买卖股票的最佳时机 II 🟠](/problems/best-time-to-buy-and-sell-stock-ii)
   - [123. 买卖股票的最佳时机 III 🔴](/problems/best-time-to-buy-and-sell-stock-iii)
   - [188. 买卖股票的最佳时机 IV 🔴](/problems/best-time-to-buy-and-sell-stock-iv)
   - [309. 最佳买卖股票时机含冷冻期 🟠](/problems/best-time-to-buy-and-sell-stock-with-cooldown)
@@ -118,4 +124,6 @@ class Solution {
 
 </details>
 </div>
+
+
 

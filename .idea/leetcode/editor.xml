@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/BestTimeToBuyAndSellStock.md" />
+              <option name="frontendQuestionId" value="leetcode.cn121" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java">
           <value>
             <LeetcodeEditor>
@@ -44,6 +55,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStockIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/BestTimeToBuyAndSellStockIii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn123" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStockIii.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -91,6 +113,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/CombinationSumIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/CombinationSumIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/CombinationSumIi.java" />
+              <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/CombinationSumIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/CombinationSumIii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn216" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/CombinationSumIii.java" />
+              <option name="titleSlug" value="combination-sum-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/Combinations.java">
           <value>
             <LeetcodeEditor>
@@ -99,6 +143,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/Combinations.java" />
               <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/DecodeWays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/DecodeWays.md" />
+              <option name="frontendQuestionId" value="leetcode.cn91" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/DecodeWays.java" />
+              <option name="titleSlug" value="decode-ways" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -168,6 +223,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/HouseRobber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/HouseRobber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn198" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/HouseRobber.java" />
+              <option name="titleSlug" value="house-robber" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/HouseRobberIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/HouseRobberIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn213" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/HouseRobberIi.java" />
+              <option name="titleSlug" value="house-robber-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/ImplementQueueUsingStacks.java">
           <value>
             <LeetcodeEditor>
@@ -223,6 +300,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/LetterCombinationsOfAPhoneNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn17" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LiWuDeZuiDaJieZhiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -242,6 +330,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LinkedListCycle.java" />
               <option name="titleSlug" value="linked-list-cycle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LongestConsecutiveSequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/LongestConsecutiveSequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn128" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LongestConsecutiveSequence.java" />
+              <option name="titleSlug" value="longest-consecutive-sequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LongestContinuousIncreasingSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/LongestContinuousIncreasingSubsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn674" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/LongestContinuousIncreasingSubsequence.java" />
+              <option name="titleSlug" value="longest-continuous-increasing-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -333,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/MinimumPathSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/MinimumPathSum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn64" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/MinimumPathSum.java" />
+              <option name="titleSlug" value="minimum-path-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/NQueensIi.java">
           <value>
             <LeetcodeEditor>
@@ -421,6 +542,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/RestoreIpAddresses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/RestoreIpAddresses.md" />
+              <option name="frontendQuestionId" value="leetcode.cn93" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/RestoreIpAddresses.java" />
+              <option name="titleSlug" value="restore-ip-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/SlidingWindowMaximum.java">
           <value>
             <LeetcodeEditor>
@@ -473,6 +605,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/TwoSum.java" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/UniqueBinarySearchTrees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/doc/content/UniqueBinarySearchTrees.md" />
+              <option name="frontendQuestionId" value="leetcode.cn96" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/src/main/java/leetcode/editor/cn/UniqueBinarySearchTrees.java" />
+              <option name="titleSlug" value="unique-binary-search-trees" />
             </LeetcodeEditor>
           </value>
         </entry>
